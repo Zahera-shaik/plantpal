@@ -1,0 +1,38 @@
+/* Base layout: make footer stick to bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main content grows to push footer down */
+main, section {
+  flex: 1;
+}
+
+/* Hero background */
+.bg-hero {
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card image styles */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Tip list item styling */
+ul.list-group li {
+  font-size: 18px;
+}
+
+/* Footer at bottom */
+footer {
+  margin-top: auto;
+}
